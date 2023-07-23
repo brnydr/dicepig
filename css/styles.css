@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+h1 {
+    font-family: 'Rubik Moonrocks';
+}
+
+.hidden {
+    display: none;
+}
+
+.swirl-in-bck {
+	-webkit-animation: swirl-in-bck 4.0s ease-out both;
+	        animation: swirl-in-bck 4.0s ease-out both;
+}
+
+div#winner {
+    font-family: 'Rubik Moonrocks';
+    font-size: xx-large
+}
+
+.fade-in { animation: fadeIn 5s; }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+
+@keyframes swirl-in-bck{0%{transform:rotate(540deg) scale(5);opacity:0}100%{transform:rotate(0) scale(1);opacity:1}}
